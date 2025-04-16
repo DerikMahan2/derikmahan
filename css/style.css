@@ -160,19 +160,19 @@ main {
 .about-hero {
   text-align: center;
   padding: 4rem 0;
-  background-color: var(--light-bg);
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
   margin-bottom: 2rem;
 }
 
 .about-hero h1 {
   font-size: 2.5rem;
-  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: var(--secondary-color);
+  color: #dbeafe;
 }
 
 /* Profile Section */
