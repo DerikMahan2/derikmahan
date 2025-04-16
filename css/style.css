@@ -44,6 +44,10 @@ nav h1 {
   font-weight: 600;
 }
 
+nav h1 span {
+  color: var(--secondary-color);
+}
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -100,6 +104,7 @@ main {
 }
 
 /* Buttons */
+.btn,
 .btn-primary,
 .btn-secondary {
   display: inline-block;
@@ -293,6 +298,18 @@ main {
 .resume p {
   line-height: 1.6;
   margin-bottom: 1.2rem;
+}
+
+.job {
+  margin-bottom: 2rem;
+}
+
+/* Section Divider */
+.divider {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, var(--secondary-color), transparent);
+  margin: 2rem 0;
 }
 
 /* Footer */
